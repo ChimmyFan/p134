@@ -4,7 +4,7 @@ objects =[];
 
 function preload()
 {
-    img=loadImage('dog_cat.jpg');
+    img=loadImage('babi.jpg');
 }
 
 
@@ -60,14 +60,9 @@ function draw()
     }
 }
     fill("#");
-    text("Dog",45,75);
+    text("Baby",45,75);
     noFill();
     stroke("#4169e1");
     rect(30,60,450,350);
 
-    fill("#30D5C8");
-    text("Cat",320,120);
-    noFill();
-    stroke("#30D5C8")
-    rect(300,90,270,320)
 }
